@@ -1,6 +1,6 @@
 {
   "name": "McLaut Balance Checker Card",
-  "content_in_root": false,
+  "content_in_root": true,
   "country": "UA",
   "homeassistant": "2025.3.3",
   "filename": "www/mclaut-balance-checker-card.js",

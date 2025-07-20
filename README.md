@@ -43,5 +43,5 @@ This card is designed to complement the HACS integration:
 ```yaml
 frontend:
   extra_module_url:
-    - /local/mclaut-balance-checker-card.js
+    - /local/community/homeassistant-mclaut-balance-checker-card/mclaut-balance-checker-card.js
 ```
