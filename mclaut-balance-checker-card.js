@@ -1,4 +1,4 @@
-const version = '0.0.4'
+const version = '0.0.6'
 
 class McLautBalanceCheckerCard extends HTMLElement {
   setConfig(config) {

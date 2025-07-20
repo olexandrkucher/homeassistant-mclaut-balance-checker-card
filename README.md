@@ -30,18 +30,24 @@ This card is designed to complement the HACS integration:
 
 1. Search for **McLaut Balance Checker Card** on HACS tab in Home Assistant
 2. Click on three dots and use the **Download** option
-3. Reload Lovelace resources (or clear browser cache if necessary).
+3. Add the following lines to your configuration.yaml
+
+```yaml
+frontend:
+  extra_module_url:
+    - /local/community/homeassistant-mclaut-balance-checker-card/mclaut-balance-checker-card.js
+```
 
 ---
 
 ### Manual Installation (not recommended)
 
 1. Download `mclaut-balance-checker-card.js` from this repository.
-2. Place it into your Home Assistant `/config/www/` folder.
-3. Add it as a resource in your `configuration.yaml`:
+2. Place it into your Home Assistant `<config>/www/` folder.
+3. AAdd the following to the frontend section of your `configuration.yaml`:
 
 ```yaml
 frontend:
   extra_module_url:
-    - /local/community/homeassistant-mclaut-balance-checker-card/mclaut-balance-checker-card.js
+    - /local/mclaut-balance-checker-card.js
 ```
